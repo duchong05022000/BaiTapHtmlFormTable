@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .container tr:nth-child(1)
+        {
+            background-color: rgb(123, 198, 225);
+        }
+        </style>
+</head>
+<body>
+    <thead></thead>
+    <main>
+        <div class="container">
+            <table bgcolor="#ffffe0" border="0" cellspacing="0" cellpadding="10" width="80%">
+                <tr>
+                    <td colspan="2" ><span style= "color :blue" >DANG KY HOC VIEN</span></td>
+                   
+
+                </tr>
+                <tr>
+                    <td ><label for="ho_ten">Ho va ten</label></td>
+                    <td align="left">
+                        <input type="text" name="ho_ten" id="ho_ten">
+                    </td>
+                    
+                </tr>
+                    <td>
+                        <label for="ngay_sinh">Ngay sinh</label>
+                    </td>
+                    <td align="left">
+                        <input type="date" name="ngay_sinh" id="ngay_sinh">
+                    </td>
+                <tr>
+                    <td>
+                        <label for="gioi_tinh">Gioi tinh</label>
+                    </td>
+                    <td align="left">
+                        <input type="radio" name="gioi_tinh" id="nam">
+                        <label for="nam">Nam</label>
+                        <input type="radio" name="gioi_tinh" id="nu">
+                        <label for="nu">Nu</label>
+                    </td>
+                </tr>
+                <tr>
+                   <td>
+                        <label for="dia_chi" id="dia_chi">Dia chi</label>
+                    </td> 
+                   <td align="left">
+                        <textarea name="dia_chi" id=""  cols="10" rows="3"></textarea>
+                    </td>
+                   
+                   
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lop">Lop</label>
+                    </td>
+                    <td align="left">
+                        <select name="lop" id="'lop">
+                            <option value="">Chon lop</option>
+                            <option value="1">Lop 1</option>
+                            <option value="2">Lop 2</option>
+                            <option value="4">Lop 3</option>
+                            <option value="5">Lop 4</option>
+                        </select><br>
+                    </td>
+
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>                     
+                    </td>
+                    <td align="left">
+                        <input type="email" name="email" id="email">
+                    </td>             
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sdt">So dien thoai</label>                  
+                    </td>
+                    <td align="left">
+                        <input type="text" name="sdt" id="sdt">
+                    </td>             
+                </tr>
+                <tr>
+                    <td align="right">
+                       <input type="submit" value="Dang ky">
+                    </td>
+                    <td align="left">
+                        <input type="reset" value="Nhap lai">
+                    </td>             
+                </tr>
+            </table>
+
+    </main>
+    <tfoot></tfoot>
+</body>
+</html>

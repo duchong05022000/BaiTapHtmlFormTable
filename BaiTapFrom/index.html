@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The input and label</h1>
+    <div>
+    <form action="/action_page.php"method="post" target="_self" autocomplete="on"novalidate>
+       <label for="username">Ten Dang Nhap</label><br>
+       <input type="text" id="username" placeholder="Ten Dang Nhap" required>
+       <br>
+       <label for="password">Mat khau</label><br>
+       <input type="password" id="password" placeholder="password" required>
+       <br>
+       <input type="submit" value="Dang Nhap">
+    </div>
+    <div>
+        <label for="old">Tuoi</label><br>
+        <input type="number" id="old" placeholder="Tuoi" min="18" max="100">
+        <br>
+        <label for="gender">Gioi Tinh</label><br>
+        <input type="radio" id="male" name="gender" required checked>
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" required >
+        <label for="female">Nu</label>
+        <br>
+        <label for="birthday"> Ngay sinh</label><br>
+        <input type="date" id="birthday" name="birthday" required>
+        <br>
+        <label for="code"> Ngay sinh</label><br>
+        <input type="checkbox" name="code" id="html" value="html" required checked> 
+        <label for="html">html</label>
+        <input type="checkbox" name="code" id="css" value="css" required checked> 
+        <label for="css">css</label>
+        <input type="checkbox" name="code" id="php" value="php" required> 
+        <label for="php">php</label>
+        <br>
+        <label for="like_color">Mau sac yeu thich</label><br>
+        <input type="color" id="like_color" name="like_color">
+        <br>
+        <label for="address">Dia chi</label><br>
+        <select name="address" id="'address">
+            <option value="1">Ha Noi</option>
+            <option value="2"> Da Nang</option>
+            <option value="3">Hue</option>
+            <option value="4">Tp HCM</option>
+            <option value="5">Can Tho</option>
+        </select><br>
+        <br>
+        <label for="">Muc Tieu</label><br>
+        <textarea name="my_goal" id="" cols="20" row="4">
+        </textarea>
+
+    </div>
+    </form>
+    <a href="registers.html" >Dang Ky</a>
+</body>
+</html>
